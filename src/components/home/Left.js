@@ -6,7 +6,7 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 import { SiYoutubemusic } from "react-icons/si";
 import { FiInstagram, FiMail, FiSend } from "react-icons/fi";
 import CV from "../../assets/Noor_Mohammad_resume.pdf";
-import { bannerImg } from "../../assets/index";
+import { merquryImg, merquryBack } from "../../assets/index";
 
 const Left = () => {
   const [text] = useTypewriter({
@@ -21,7 +21,7 @@ const Left = () => {
       <div className="w-full h-3/5">
         <img
           className="w-full h-full object-cover rounded-2xl"
-          src={bannerImg}
+          src={merquryBack}
           loading="priority"
           alt="bannerImage"
         />
