@@ -16,6 +16,7 @@ module.exports = {
       fontFamily: {
         bodyfont: ["Poppins", "sans-serif"],
         titleFont: ["Montserrat", "sans-serif"],
+        merqury: ["Nosifer"]
       },
       colors: {
         bodyColor: "#191919",
