@@ -49,7 +49,7 @@ const Left = () => {
               <FiInstagram />
             </span>
            </a>
-           <a href="www.twitter.com/@imequry">
+           <a href="https://www.twitter.com/@imequry">
             <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <AiFillTwitterCircle />
             </span>
