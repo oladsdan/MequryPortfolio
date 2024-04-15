@@ -34,27 +34,32 @@ const Left = () => {
             <Cursor cursorBlinking="false" cursorStyle="|" />
           </p>
           <div className="flex justify-center gap-2 mt-2">
-            <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
-              <FaGithub />
-            </span>
-            <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
-              <FaLinkedin />
-            </span>
-            <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
-              <SiYoutubemusic />
-            </span>
+            <a href="https://www.linkedin.com/in/mequrythink?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="blank">
+              <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
+                <FaLinkedin />
+              </span>
+            </a>
+           <a href="https://www.facebook.com/mequrythink?mibextid=LQQJ4d" target="blank">
             <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <BsFacebook />
             </span>
+           </a>
+           <a href="https://www.instagram.com/mequrythink?igsh=MWQ4dDdoamV1cGtuNQ%3D%3D&utm_source=qr">
             <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <FiInstagram />
             </span>
+           </a>
+           <a href="www.twitter.com/@imequry">
             <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <AiFillTwitterCircle />
             </span>
+
+           </a>
+           <a href="mailto:makoozee007@gmail.com">
             <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <FiMail />
             </span>
+           </a>
           </div>
         </div>
         <div className="flex h-14">
