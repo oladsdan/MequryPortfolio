@@ -8,7 +8,7 @@ const AboutMe = () => {
           <h2 className="font-semibold mb-1">Hello! I'm Mequry</h2>
           <p className="text-base leading-6 ">
             A dedicated and passionate cinematographer with a strong attention to detail with vast knowledge of multiple
-            movie making software programs e.g Adobe Premiere, After-Effect, Movavi
+            movie making software programs.
           </p>
         </div>
       </div>

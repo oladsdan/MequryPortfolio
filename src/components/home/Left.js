@@ -62,8 +62,8 @@ const Left = () => {
            </a>
           </div>
         </div>
-        <div className="flex h-14">
-          <a
+        <div className="flex justify-center items-center h-14">
+          {/* <a
             href={CV}
             target="_blank"
             className="w-1/2 border-t-[1px] borderRight border-t-zinc-800 text-sm tracking-wide uppercase  gap-2 hover:text-designColor duration-300"
@@ -72,7 +72,7 @@ const Left = () => {
             <button className="w-full h-full flex justify-center items-center gap-2">
               Download CV <BsCloudLightningFill />
             </button>
-          </a>
+          </a> */}
           <button className="w-1/2 border-t-[1px] border-t-zinc-800 text-sm tracking-wide uppercase flex justify-center items-center gap-2 hover:text-designColor duration-300">
             Contact me <FiSend />
           </button>
