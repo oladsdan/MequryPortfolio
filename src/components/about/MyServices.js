@@ -1,31 +1,31 @@
 import React from "react";
-import { FaAppStoreIos } from "react-icons/fa";
-import { AiTwotoneAppstore } from "react-icons/ai";
-import { SiAntdesign } from "react-icons/si";
-import { BiCodeAlt } from "react-icons/bi";
+import { FaBusinessTime } from "react-icons/fa";
+import { MdCameraRoll } from "react-icons/md";
+import { BsCameraReels } from "react-icons/bs";
+import { FiCamera } from "react-icons/fi";
 import ServicesCard from "./ServicesCard";
 
 const MyServices = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2">
       <ServicesCard
-        icons={<BiCodeAlt />}
-        title="Web Development"
+        icons={<BsCameraReels />}
+        title="Wedding Event"
+        subTitle="At MequryThink. its not just an Ordinary wedding, but a movie. We cover love Story, BTS(behind the scenes), interviews, pre-Wedding Photoshoot and so on"
+      />
+      <ServicesCard
+        icons={<FiCamera />}
+        title="Creative Photoshoot"
         subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
       />
       <ServicesCard
-        icons={<SiAntdesign />}
-        title="Web Design"
+        icons={<MdCameraRoll />}
+        title="Documentary"
         subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
       />
       <ServicesCard
-        icons={<AiTwotoneAppstore />}
-        title="Mobile Application"
-        subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
-      />
-      <ServicesCard
-        icons={<FaAppStoreIos />}
-        title="SEO"
+        icons={<FaBusinessTime />}
+        title="Buisness Advert"
         subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
       />
     </div>
