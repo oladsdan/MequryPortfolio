@@ -11,22 +11,22 @@ const MyServices = () => {
       <ServicesCard
         icons={<BsCameraReels />}
         title="Wedding Event"
-        subTitle="At MequryThink. its not just an Ordinary wedding, but a movie. We cover love Story, BTS(behind the scenes), interviews, pre-Wedding Photoshoot and so on"
+        subTitle="At MequryThink. its not just an Ordinary wedding, but a movie. We cover love Story, Make-up Scenes, interviews, pre-Wedding Photoshoot and so on"
       />
       <ServicesCard
         icons={<FiCamera />}
         title="Creative Photoshoot"
-        subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
+        subTitle="Its not just a Photoshoot, its an art. we go beyound the ordinary bringing to you a unique masterpiece, with attention to details"
       />
       <ServicesCard
         icons={<MdCameraRoll />}
         title="Documentary"
-        subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
+        subTitle="At MequryThink Studios we also create documentary of any type and kind, we are good at what we do, give us a trial"
       />
       <ServicesCard
         icons={<FaBusinessTime />}
         title="Buisness Advert"
-        subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
+        subTitle="Professional Buisness Advert are done here, we bring the ideas inform of directing, producing and also budgeting for client satisfaction "
       />
     </div>
   );
